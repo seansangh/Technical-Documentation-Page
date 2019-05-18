@@ -1,0 +1,145 @@
+<!DOCTYPE HTML>
+<html>
+ <head>
+ <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+ <link rel="stylesheet" href="/style.css" />  
+ </head>
+ <div id="top">
+   <p></p>
+ </div>
+ <body>
+   <div class="columnA">
+     <div class="bar">
+     <input type="submit" value=" ">
+     <input type ="text" value="Search this page">
+     </div>
+     <hr>
+     <nav id="navbar">
+     <div class="js">
+       <header></header><p class= "left-title">JavaScript Documentation</p><p class="right-js"><img src="https://cdn.pixabay.com/photo/2014/04/02/10/15/arrow-303271_960_720.png" width="10px" class="arrow" alt="img" /></p>
+     </div>
+     <div class="js2">
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#Introduction">Introduction</a></p>
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#What_You_Should_Know">What You Should Know</a></p>
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#JavaScript_vs._Java">JavaScript vs. Java</a></p>
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#Hello_World">Hello World</a></p>
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#JavaScript_Variables">JavaScript Variables</a></p>
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#How_To_Declare_Variables">How To Declare Variables</a></p>
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#Scope_of_Variables">Scope of Variables</a></p>
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#Global_Variables">Global Variables</a></p>
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#JavaScript_Constants">JavaScript Constants</a></p> 
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#Types_of_Data">Types of Data</a></p>
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#If_Else_Statements">If Else Statements</a></p>   
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#While_Statements">While Statements</a></p> 
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#Declaring_Functions">Declaring Functions</a></p>  
+       <p class= "left-title2"><img src="https://cdn.pixabay.com/photo/2016/04/07/18/57/arrow-1314470_960_720.png" width="5px" class="arrow" alt="img" /> <a class="nav-link" href="#References">References</a></p>          
+     </div>
+     </nav>
+
+   </div>
+   
+   
+ <main id ="main-doc">
+   <section class="main-section" id="Introduction">
+     <header id="heads">Introduction</header>
+     <p>JavaScript is a scripting language that is cross-platform.</p>
+     <ul>
+       <li>Server-side JavaScript allows for the communication of an application with a web server to produce customized responses for the user. </li>
+       <li>Client-side JavaScript communication typically occurs via a browser (i.e. running scripts). </li>
+     </ul>
+   </section>
+   <section class="main-section" id="What_You_Should_Know">
+     <header class="heads">What You Should Know</header>     
+     <p>It is expected that you already have an understanding of:</p>
+      <ul>
+       <li>Using the internet.</li>
+       <li>General HTML knowledge.</li>
+       <li>Some experience with programming.</li>
+     </ul>
+   </section>
+   <section class="main-section" id="JavaScript_vs._Java">
+     <header class="heads">Javascript vs. Java</header>
+     <p>The main differences between Javascript and Java include the following:</p>
+          <ul>
+       <li>Java has static typing and strong type checking. </li>
+       <li>Java has a more class-based object model while JavaScript has a more prototype-based model. </li>
+       <li>JavaScript is a more free-form language where you do not have declare all of the classes, methods, and variables used. </li>
+     </ul>
+   </section>
+   <section class="main-section" id="Hello_World">
+     <header class="heads">Hello World</header>   
+     <p>The first code to start off with in JavaScript is typically Hello World: </p>
+     <code>function yourFunction(yourAnswer){</code><br><br>
+     <code>alert("Hello " + yourAnswer);</code>
+<br><br>
+     <code>}</code>
+<br><br>
+     <code>yourFunction("World");</code>
+   </section>
+   <section class="main-section" id="JavaScript_Variables">
+     <header class="heads">JavaScript Variables</header>     
+     <p>JavaScript variables are used for values in your application. These variables are case sensitive (i.e. a-z and A-Z) and must start with either a letter, underscore symbol (_), or dollar symbol ($). </p>
+   </section>
+    <section class="main-section" id="How_To_Declare_Variables">
+     <header class="heads">How To Declare Variables</header>     
+      <p>In order to declare a variable, you can  use the keyword var (<code>var y = 500</code>). If you don't use var (<code>y = 500</code>), then the variable may be declared as a global variable.</p>
+      <p>In addition to var, you can use the keyword let to declare a variable (<code>let y = 500</code>). </p>
+   </section>
+    <section class="main-section" id="Scope_of_Variables">
+     <header class="heads">Scope of Variables</header> 
+      <p>If you declare a variable in a function, then that variable will only be available within that function. If you declare a variable outside a function, then it will be a global variable available to the rest of your code.</p>
+   </section>  
+   <section class="main-section" id="Global_Variables">
+     <header class="heads">Global Variables</header>
+     <p>In order to access global variables, you can use the window.<i>variable</i> syntax where the variable in question is placed after window.</p>
+   </section>   
+   <section class="main-section" id="JavaScript_Constants">
+     <header class="heads">JavaScript Constants</header>     
+     <p>If you would like a variable to retain its value throughout, then use the keyword const (<code>const PI = 3.145</code>).</p>
+   </section>   
+   <section class="main-section" id="Types_of_Data">
+     <header class="heads">Types of Data</header> 
+     <p>There are seven data types:</p>
+      <ul>
+        <li>null (denotes a null value)</li>
+        <li>undefined (denotes a value that is undefined)</li>
+        <li>Number (0.01, 0.1, 1, 2, .......)</li>
+        <li>Boolean (true or false)</li>
+        <li>String ("word statements")</li>
+        <li>Symbol</li>
+        <li>Object</li>
+     </ul>
+   </section>   
+   <section class="main-section" id="If_Else_Statements">
+     <header class="heads">If Else Statements</header>      <p>If else statements are used to execute different code depending on a scenario.</p>
+       <code>if (condition) {</code><br><br>
+       <code>statement1;</code><br><br>
+       <code>} else{</code><br><br>
+       <code>statement2;</code><br><br>
+       <code>}</code><br><br>
+   </section>   
+   <section class="main-section" id="While_Statements">
+     <header class="heads">While Statements</header>        <p>A while statement is executed as long as the conditions are true.</p>
+       <code>while (condition) </code><br><br>
+         <code>statement</code><br><br>
+   </section>
+   <section class="main-section" id="Declaring_Functions">
+     <header class="heads">Declaring Functions</header>      <p>Functions are declared by the function keyword followed by the name of the function, a list of arguments to the function (seperated by a comma and enclosed in parentheses), and a statement defining the function between { }.</p>
+     <p><code>function myFunction(num) {</code><br><br>
+       <code>return num * num;</code><br><br>
+       <code>}</code>
+     </p>
+   </section>   
+   <section class="main-section" id="References">
+     <header class="heads">References</header>     
+     <p>All information was taken from: <a href="https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide"> https://developer.mozilla.org/en-US/docs/Web/JavaScript/Guide</a></p>
+   </section>
+   
+ </main>
+   
+ </body>  
+  
+  
+  
+  
+</html>
