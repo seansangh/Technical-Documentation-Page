@@ -1,0 +1,113 @@
+#top p{
+  background: linear-gradient(to bottom, black, silver); 
+  height: 5px; 
+  line-height: 5px; 
+  padding-top: 0px;
+}
+
+#top{
+  position:fixed; 
+  width: 100%; 
+  margin-top: -24px;
+}
+
+.columnA{
+  position: fixed; 
+  width: 300px; 
+  padding-left: 50px; 
+  overflow: scroll; 
+  height: 100vh; 
+  border-right: 2px solid silver;
+}
+
+.columnA input[type="text"]{
+  color: gray;
+  border: 0px;
+}
+
+.columnA input[type=submit]{
+  background: url(https://cdn.pixabay.com/photo/2018/10/25/10/25/graphic-3772089_960_720.png);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  width: 20px;
+  height: 20px;
+  border: 0px;
+}
+
+.bar{
+  border: 1px solid silver;
+  width: 200px;
+}
+
+.js{
+  display:flex; 
+  flex-direction: row; 
+  border-bottom: 1px solid silver;
+}
+
+.left-title{
+  width: 70%; 
+  font-weight: bold; 
+  font-family: arial; 
+  font-size: 15px;
+}
+
+.right-js{
+  text-align: right; 
+  width: 30%;
+}
+
+.left-title2 a{
+  text-decoration: none; 
+  color: #0033cc;
+}
+
+.left-title2 {
+  color: #0033cc; 
+  font-family: georgia; 
+  font-size: 14px;
+}
+
+.left-title2 img{
+  vertical-align: middle;
+}
+
+#main-doc{
+  padding-left: 400px; 
+  padding-top: 25px; 
+  font-family: arial;
+  font-size: 14px;
+}
+
+#heads{
+  font-weight: bold; 
+  font-size: 23px;
+}
+
+.heads{
+  color: navy;
+  font-size: 16px;
+}
+
+#main-doc p{
+  color: gray;
+}
+
+#main-doc ul li{
+  color:gray; 
+  padding-bottom: 10px;
+}
+
+.main-section{
+  padding-bottom: 15px;
+  margin-bottom: 35px;
+  border-bottom: 1px dotted #f2f2f2;
+}
+
+.go{
+  list-style-type: none;
+}
+
+@media(max-width: 500px){
+  
+}
